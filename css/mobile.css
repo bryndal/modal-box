@@ -1,0 +1,32 @@
+/** MOBILE DEVICES **/
+
+
+/** vertically center **/
+.modalDialog {
+	display: block;
+	padding: 5px;
+}
+
+
+/** modal box text **/
+.textContainer {
+	overflow-y: auto;
+	max-height: 640px;
+}
+#modalBox {
+	border-radius: 0;
+}
+.modalBox-caption {
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
+}
+/** closing button **/
+.close {
+	display: none;
+}
+/**Buttons**/
+.buttonContainer {
+	border-radius: 0;
+	bottom: -40px;
+}

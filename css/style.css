@@ -1,0 +1,81 @@
+/** OpenModal **/
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog {
+	background: #E8DD95;
+    font-family: Arial, Helvetica;
+    font-size: 16px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	-webkit-transition: opacity 200ms ease-out;
+    -moz-transition: opacity 200ms ease-out;
+    transition: opacity 300ms ease-out;
+}
+/** Modal Box **/
+#modalBox {
+	background-color: #FFA7A4; 
+	min-height: 300px; 
+	max-width: 500px; 
+	border-radius: 5px; 
+	margin: 0 auto;
+	position: relative;
+
+	
+}
+/**ModalBox text **/
+.textContainer {
+	overflow-y: auto;
+    max-height: 400px;
+}
+.modalBox-caption {
+	padding: 20px;
+	text-align: justify; 
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2
+}
+
+/** Buttons **/
+.buttonContainer {
+	background-color: #FFA7A4;
+    position: absolute;
+    bottom: -33px;
+    width: 100%;
+    border-radius: 7px;
+    float: none;
+    text-align: center;
+}
+.videoButton {
+	padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: #B283E8;
+    position: relative;
+    margin-bottom: 15px;
+}
+.videoButton a {
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+}
+.close {
+	position: absolute;
+    right: -2px;
+    background-color: #B283E8;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+}
