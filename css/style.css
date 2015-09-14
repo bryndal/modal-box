@@ -1,9 +1,9 @@
 /** OpenModal **/
-.modalDialog:target {
+.box:target {
     opacity: 1;
     pointer-events: auto;
 }
-.modalDialog {
+.box {
 	background: #E8DD95;
     font-family: Arial, Helvetica;
     font-size: 16px;
